@@ -144,7 +144,7 @@
   animation: podckazka1 6s linear alternate;
 }
 .podckazka2 .tablichka p{
-  font-family: Pixel Times;
+  font-family: Pixel_Times;
   color: #000;
   font-size: 40px;
   text-transform: uppercase;
@@ -173,7 +173,7 @@
   animation: podckazka1 6s linear alternate;
 }
 .podckazka3 .tablichka p{
-  font-family: Pixel Times;
+  font-family: Pixel_Times;
   color: #000;
   font-size: 40px;
   text-transform: uppercase;

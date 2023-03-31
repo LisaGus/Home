@@ -87,7 +87,7 @@
   animation-play-state: paused;
 }
 .rebus .da{
-  font-family: Pixel Times;
+  font-family: Pixel_Times;
   color: #fff;
   font-size: 34px;
   transform: rotate(-90deg);
@@ -97,7 +97,7 @@
 .str3 .oglav{
   display: block;
   position: absolute;
-  font-family: Pixel Times;
+  font-family: Pixel_Times;
   color: #fff;
   font-size: 56px;
   text-transform: uppercase;
@@ -109,7 +109,7 @@
 .str3 .one{
   display: block;
   position: absolute;
-  font-family: Pixel Times;
+  font-family: Pixel_Times;
   color: #fff;
   font-size: 56px;
   text-transform: uppercase;
@@ -130,7 +130,7 @@
 .str3 .two{
   display: block;
   position: absolute;
-  font-family: Pixel Times;
+  font-family: Pixel_Times;
   color: #fff;
   font-size: 56px;
   text-transform: uppercase;
@@ -151,7 +151,7 @@
 .str3 .three{
   display: block;
   position: absolute;
-  font-family: Pixel Times;
+  font-family: Pixel_Times;
   color: #fff;
   font-size: 56px;
   text-transform: uppercase;
@@ -172,7 +172,7 @@
 .str3 .four{
   display: block;
   position: absolute;
-  font-family: Pixel Times;
+  font-family: Pixel_Times;
   color: #fff;
   font-size: 56px;
   text-transform: uppercase;
@@ -193,7 +193,7 @@
 .str3 .five{
   display: block;
   position: absolute;
-  font-family: Pixel Times;
+  font-family: Pixel_Times;
   color: #fff;
   font-size: 56px;
   text-transform: uppercase;
@@ -223,7 +223,7 @@
   animation-play-state: paused;
 }
 .rebus .Y p{
-  font-family: Pixel Times;
+  font-family: Pixel_Times;
   color: #fff;
   font-size: 34px;
   margin-top: 135px;
@@ -241,7 +241,7 @@
   animation-play-state: paused;
 }
 .rebus .O p{
-  font-family: Pixel Times;
+  font-family: Pixel_Times;
   color: #fff;
   font-size: 34px;
   margin-top: 135px;
@@ -259,7 +259,7 @@
   animation-play-state: paused;
 }
 .rebus .U p{
-  font-family: Pixel Times;
+  font-family: Pixel_Times;
   color: #fff;
   font-size: 34px;
   margin-top: 135px;
@@ -277,7 +277,7 @@
   animation-play-state: paused;
 }
 .rebus .R p{
-  font-family: Pixel Times;
+  font-family: Pixel_Times;
   color: #fff;
   font-size: 34px;
   margin-top: 135px;
@@ -295,7 +295,7 @@
   animation-play-state: paused;
 }
 .rebus .L p{
-  font-family: Pixel Times;
+  font-family: Pixel_Times;
   color: #fff;
   font-size: 34px;
   margin-top: 135px;
@@ -314,7 +314,7 @@
   animation-play-state: paused;
 }
 .rebus .I p{
-  font-family: Pixel Times;
+  font-family: Pixel_Times;
   color: #fff;
   font-size: 34px;
   margin-top: 135px;
@@ -332,7 +332,7 @@
   animation-play-state: paused;
 }
 .rebus .F p{
-  font-family: Pixel Times;
+  font-family: Pixel_Times;
   color: #fff;
   font-size: 34px;
   margin-top: 135px;
@@ -350,7 +350,7 @@
   animation-play-state: paused;
 }
 .rebus .E p{
-  font-family: Pixel Times;
+  font-family: Pixel_Times;
   color: #fff;
   font-size: 34px;
   margin-top: 135px;
