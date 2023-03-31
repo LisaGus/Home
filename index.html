@@ -28,7 +28,7 @@
       });
 
       $(".camin_small").click(function(){
-        $(".camin_big").css("display","block");
+        $(".camin").css("display","block");
         $(".podckazka2").css("display","none");
         $(".podckazka3").css("display","none");
       });
@@ -117,11 +117,49 @@
         $(".kniga").css("display","none");
         $(".room_2").css("display","block");
       });
+
+      $(".podckazka4").click(function(){
+        $(".dver2").css("animation-play-state","running");
+        $(".rama").css("animation-play-state","paused");
+      });
+
+      $(".podckazka5").click(function(){
+        $(".rama").css("animation-play-state","running");
+        $(".dver2").css("animation-play-state","paused");
+      });
+
+      $(".okno").click(function(){
+        $(".room_2").css("display","none");
+        $(".okno_bliz").css("display","block");
+      });
+
+      $(".shtori_bliz").click(function(){
+        $(this).css("animation-play-state","running");
+        $(".belka").css("animation-play-state","running");
+      });
+
+      $(".vihod3").click(function(){
+        $(".okno_bliz").css("display","none");
+        $(".room_2").css("display","block");
+      });
+
+      $(".dver2").click(function(){
+        $(".room_2").css("display","none");
+        $(".end").css("display","block");
+      });
+
+      $(".start").click(function(){
+        $(".end").css("display","none");
+        $(".snaruji").css("display","block");
+        $(".zagalovok").css("display","block");
+        $(".name").css("display","block");
+      });
+
     });
     </script>
     <style media="screen">
     @font-face {
-    font-family: Pixel_Times;
+    font-family: Pixel Times;
     src: url(stylesheet/fonts/Pixel Times Bold.ttf);
     src: url(stylesheet/fonts/Pixel Times.ttf);
     }
@@ -174,7 +212,6 @@
      </div>
    </div>
 
-
   <div class="room-camin">
     <div class="oboi">
     </div>
@@ -223,7 +260,6 @@
       <div class="vihod2">
       </div>
   </div>
-
 
   <div class="camin">
     <div class="camin_big">
@@ -323,7 +359,64 @@
   </div>
 
   <div class="room_2">
+    <div class="okno">
+      <div class="za_oknom">
+      </div>
+      <div class="rama">
+      </div>
+      <div class="gardina">
+      </div>
+      <div class="shtori">
+      </div>
+    </div>
+    <div class="krovat">
+    </div>
+    <div class="dver2">
+    </div>
+    <div class="podckazka4">
+      <div class="tochki">
+      </div>
+      <div class="tablichka">
+        <p>выйти на задний двор</p>
+      </div>
+    </div>
+    <div class="podckazka5">
+      <div class="tochki">
+      </div>
+      <div class="tablichka">
+        <p>заглянуть в окно</p>
+      </div>
+    </div>
+  </div>
 
+  <div class="okno_bliz">
+    <div class="derevo2">
+    </div>
+    <div class="derevo1">
+    </div>
+    <div class="belka">
+    </div>
+    <div class="derevo3">
+    </div>
+    <div class="rama_bliz">
+    </div>
+    <div class="za_oknom_bliz">
+    </div>
+    <div class="shtori_bliz">
+    </div>
+    <div class="vihod3">
+    </div>
+  </div>
+
+  <div class="end">
+    <div class="fon_end">
+    </div>
+    <div class="tablo_end">
+      <p class="glav">локация пройдена</h1>
+      <div class="strelka">
+      </div>
+      <p class="start">начать заново</p>
+    </div>
   </div>
   </body>
 </html>

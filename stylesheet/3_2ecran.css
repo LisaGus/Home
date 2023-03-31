@@ -1,0 +1,157 @@
+.okno_bliz{
+  display: none;
+}
+.za_oknom_bliz{
+  display: block;
+  background-color: rgba(69, 221, 231, 1);
+  height: 1200px;
+  width: 100%;
+}
+.rama_bliz{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_кроватью/окно2.png);
+  width: 1888px;
+  height: 1200px;
+  left:8px;
+  top: 8px;
+}
+.shtori_bliz{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_кроватью/шторы_близко.png);
+  width: 1323px;
+  height: 1200px;
+  right:8px;
+  top: 8px;
+  animation: shtori 5s alternate forwards;
+  animation-play-state: paused;
+}
+.derevo1{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_кроватью/дерево2.png);
+  width: 815px;
+  height: 1091px;
+  left:8px;
+  bottom: -248px;
+  animation: derevo1 1s steps(1) alternate infinite;
+}
+.derevo2{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_кроватью/дерево1.png);
+  width: 826px;
+  height: 1198px;
+  left:795px;
+  top: 8px;
+  animation: derevo2 1s steps(1) alternate infinite;
+}
+.derevo3{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_кроватью/дерево3.png);
+  width: 571px;
+  height: 941px;
+  left:1242px;
+  bottom: -190px;
+  animation: derevo3 1s steps(1) alternate infinite;
+}
+.belka{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_кроватью/белка.png);
+  width: 98px;
+  height: 241px;
+  left:516px;
+  bottom: 277px;
+  animation: belka 5s alternate forwards;
+  animation-play-state: paused;
+}
+.vihod3{
+  display: block;
+  position: absolute;
+  background: url(../images/основное/стрелка.png);
+  width: 208px;
+  height: 92px;
+  right:27px;
+  bottom: -251px;
+}
+.end{
+  display: none;
+}
+.fon_end{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_кроватью/фон_конца.png);
+  width: 1888px;
+  height: 1200px;
+  right:8px;
+  top: 8px;
+}
+.tablo_end{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_кроватью/табло.png);
+  width: 1650px;
+  height: 450px;
+  right:129px;
+  top: 371px;
+}
+.tablo_end .glav{
+  font-family: Pixel Times;
+  color: #000;
+  font-size: 130px;
+  text-transform: uppercase;
+  line-height: 33px;
+  text-align: center;
+  margin-top: 107px;
+}
+.tablo_end p{
+  font-family: Pixel Times;
+  color: #000;
+  font-size: 82px;
+  text-transform: uppercase;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom: 220px;
+}
+.tablo_end .strelka{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_кроватью/стрелка.png);
+  width: 74px;
+  height: 66px;
+  right:799px;
+  top: 227px;
+  animation: strelka 0.7s linear infinite;
+}
+@keyframes shtori {
+  0%{width: 1323px;}
+  100%{width: 0px;}
+}
+@keyframes belka {
+  0%{height: 241px;}
+  100%{height: 0px;}
+}
+@keyframes belka2 {
+  0%{height: 0px;}
+  100%{height: 241px;}
+}
+@keyframes derevo1 {
+  0%{background-position: 0px top;}
+  100%{background-position: 815px top;}
+}
+@keyframes derevo2 {
+  0%{background-position: 0px top;}
+  100%{background-position: 826px top;}
+}
+@keyframes derevo3 {
+  0%{background-position: 0px top;}
+  100%{background-position: 571px top;}
+}
+
+@keyframes strelka {
+  0%{top: 227px;}
+  100%{top: 240px;}
+}

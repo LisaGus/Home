@@ -1,0 +1,123 @@
+
+.room_2{
+  display: none;
+  background-color: #DD9A4F;
+  height: 1455px;
+  width: 100%;
+}
+.okno .rama{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_кроватью/окно.png);
+  width: 1062px;
+  height: 792px;
+  left:42px;
+  top: 131px;
+  animation: blick 0.5s alternate infinite;
+  animation-play-state: paused;
+}
+.okno .za_oknom{
+  display: block;
+  position: absolute;
+  background-color: rgba(69, 221, 231, 1);
+  width: 1060px;
+  height: 790px;
+  left:43px;
+  top: 132px;
+}
+.okno .gardina{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_кроватью/для_штор.png);
+  width: 1185px;
+  height: 97px;
+  left:8px;
+  top: 35px;
+}
+.okno .shtori{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_кроватью/шторы.png);
+  width: 322px;
+  height: 930px;
+  left:738px;
+  top: 73px;
+}
+.krovat{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_кроватью/кровать.png);
+  width: 1261px;
+  height: 569px;
+  left:8px;
+  bottom: -527px;
+}
+.dver2{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_кроватью/дверь2.png);
+  width: 369px;
+  height: 1213px;
+  right:8px;
+  bottom: -527px;
+  animation: blick 0.5s alternate infinite;
+  animation-play-state: paused;
+}
+.podckazka4 .tochki{
+  display: block;
+  position: absolute;
+  background: url(../images/основное/точки.png);
+  width: 69px;
+  height: 24px;
+  top: 141px;
+  left: 0px;
+  animation: podckazka1 6s linear alternate;
+}
+.podckazka4 .tablichka{
+  display: block;
+  position: absolute;
+  background: url(../images/основное/табличка5.png);
+  width: 683px;
+  height: 104px;
+  top: 70px;
+  left: 75px;
+  animation: podckazka1 6s linear alternate;
+}
+.podckazka4 .tablichka p{
+  font-family: Pixel Times;
+  color: #000;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 33px;
+  text-align: center;
+  margin-top: 35px;
+}
+.podckazka5 .tochki{
+ display: block;
+ position: absolute;
+ background: url(../images/основное/точки.png);
+ width: 69px;
+ height: 24px;
+ top: 291px;
+ left: 0px;
+ animation: podckazka1 6s linear alternate;
+}
+.podckazka5 .tablichka{
+ display: block;
+ position: absolute;
+ background: url(../images/основное/табличка6.png);
+ width: 547px;
+ height: 104px;
+ top: 220px;
+ left: 75px;
+ animation: podckazka1 6s linear alternate;
+}
+.podckazka5 .tablichka p{
+ font-family: Pixel Times;
+ color: #000;
+ font-size: 40px;
+ text-transform: uppercase;
+ line-height: 33px;
+ text-align: center;
+ margin-top: 35px;
+}

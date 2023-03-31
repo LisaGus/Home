@@ -47,7 +47,7 @@
 .zagalovok{
   display: block;
   position: absolute;
-  font-family: Pixel_Times;
+  font-family: Pixel Times;
   color: #fff;
   font-size: 206px;
   text-transform: uppercase;
@@ -58,7 +58,7 @@
 .name{
   display: block;
   position: absolute;
-  font-family: Pixel_Times;
+  font-family: Pixel Times;
   color: #fff;
   font-size: 33px;
   text-transform: uppercase;
@@ -155,7 +155,7 @@
   left: 30px;
 }
 .nachat p{
-  font-family: Pixel_Times;
+  font-family: Pixel Times;
   color: #000;
   font-size: 70px;
   text-transform: uppercase;
@@ -187,7 +187,7 @@
   animation: podckazka1 6s linear alternate;
 }
 .podckazka1 .tablichka p{
-  font-family: Pixel_Times;
+  font-family: Pixel Times;
   color: #000;
   font-size: 40px;
   text-transform: uppercase;
