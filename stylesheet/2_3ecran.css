@@ -1,0 +1,395 @@
+.kniga{
+  display: none;
+}
+.kniga .otkr_kniga{
+  display: none;
+}
+.temno{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/затемнение.png);
+  height: 1448px;
+  width: 1888px;
+  top: 7px;;
+}
+.kniga .zakr_kniga{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/книга_близь.png);
+  width: 798px;
+  height: 1054px;
+  left:464px;
+  top: 300px;
+}
+.krest{
+  display: block;
+  position: absolute;
+  background: url(../images/основное/крест.png);
+  width: 142px;
+  height: 164px;
+  right: 20px;
+  top: 20px;
+}
+.oblojka{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/низ_книги.png);
+  width: 1301px;
+  height: 881px;
+  left:285px;
+  top: 345px;
+}
+.str1{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/страница1.png);
+  width: 1252px;
+  height: 870px;
+  left:310px;
+  top: 333px;
+}
+.str2{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/страница2.png);
+  width: 1218px;
+  height: 866px;
+  left:326px;
+  top: 318px;
+}
+.str3{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/страница3.png);
+  width: 1183px;
+  height: 860px;
+  left:343px;
+  top: 310px;
+}
+.zakladka{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/закладка.png);
+  width: 67px;
+  height: 941px;
+  left:827px;
+  top: 309px;
+}
+.rebus{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/трафарет.png);
+  width: 446px;
+  height: 841px;
+  left:675px;
+  top: 10px;
+  animation: color5 0.1s alternate forwards;
+  animation-play-state: paused;
+}
+.rebus .da{
+  font-family: Pixel Times;
+  color: #fff;
+  font-size: 34px;
+  transform: rotate(-90deg);
+  margin-right: -362px;
+  margin-left: -173px;
+}
+.str3 .oglav{
+  display: block;
+  position: absolute;
+  font-family: Pixel Times;
+  color: #fff;
+  font-size: 56px;
+  text-transform: uppercase;
+  line-height: 33px;
+  text-align: center;
+  top: -26px;
+  left: 39px;
+}
+.str3 .one{
+  display: block;
+  position: absolute;
+  font-family: Pixel Times;
+  color: #fff;
+  font-size: 56px;
+  text-transform: uppercase;
+  line-height: 33px;
+  text-align: center;
+  top: 100px;
+  left: 40px;
+}
+.str3 .color1{
+  display: block;
+  position: absolute;
+  width: 210px;
+  height: 57px;
+  background-color:#A52F26;
+  top: 137px;
+  left: 150px;
+}
+.str3 .two{
+  display: block;
+  position: absolute;
+  font-family: Pixel Times;
+  color: #fff;
+  font-size: 56px;
+  text-transform: uppercase;
+  line-height: 33px;
+  text-align: center;
+  top: 185px;
+  left: 40px;
+}
+.str3 .color2{
+  display: block;
+  position: absolute;
+  width: 210px;
+  height: 57px;
+  background-color:#348459;
+  top: 223px;
+  left: 150px;
+}
+.str3 .three{
+  display: block;
+  position: absolute;
+  font-family: Pixel Times;
+  color: #fff;
+  font-size: 56px;
+  text-transform: uppercase;
+  line-height: 33px;
+  text-align: center;
+  top: 270px;
+  left: 40px;
+}
+.str3 .color3{
+  display: block;
+  position: absolute;
+  width: 210px;
+  height: 57px;
+  background-color:#114581;
+  top: 309px;
+  left: 150px;
+}
+.str3 .four{
+  display: block;
+  position: absolute;
+  font-family: Pixel Times;
+  color: #fff;
+  font-size: 56px;
+  text-transform: uppercase;
+  line-height: 33px;
+  text-align: center;
+  top: 355px;
+  left: 40px;
+}
+.str3 .color4{
+  display: block;
+  position: absolute;
+  width: 210px;
+  height: 57px;
+  background-color:#B74797;
+  top: 395px;
+  left: 150px;
+}
+.str3 .five{
+  display: block;
+  position: absolute;
+  font-family: Pixel Times;
+  color: #fff;
+  font-size: 56px;
+  text-transform: uppercase;
+  line-height: 33px;
+  text-align: center;
+  top: 440px;
+  left: 40px;
+}
+.str3 .color5{
+  display: block;
+  position: absolute;
+  width: 210px;
+  height: 57px;
+  background-color:#FED237;
+  top: 481px;
+  left: 150px;
+}
+.rebus .Y{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/Y.png);
+  width: 230px;
+  height: 212px;
+  left:0px;
+  top: 0px;
+  animation: color1_Y 0.1s alternate forwards;
+  animation-play-state: paused;
+}
+.rebus .Y p{
+  font-family: Pixel Times;
+  color: #fff;
+  font-size: 34px;
+  margin-top: 135px;
+  margin-left: 117px;
+}
+.rebus .O{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/O.png);
+  width: 137px;
+  height: 212px;
+  right:0px;
+  top: 0px;
+  animation: color2_O 0.1s alternate forwards;
+  animation-play-state: paused;
+}
+.rebus .O p{
+  font-family: Pixel Times;
+  color: #fff;
+  font-size: 34px;
+  margin-top: 135px;
+  margin-left: 114px;
+}
+.rebus .U{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/U.png);
+  width: 177px;
+  height: 212px;
+  left:0px;
+  top: 210px;
+  animation: color3_U 0.1s alternate forwards;
+  animation-play-state: paused;
+}
+.rebus .U p{
+  font-family: Pixel Times;
+  color: #fff;
+  font-size: 34px;
+  margin-top: 135px;
+  margin-left: 132px;
+}
+.rebus .R{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/R.png);
+  width: 172px;
+  height: 212px;
+  right:0px;
+  top: 210px;
+  animation: color4_R 0.1s alternate forwards;
+  animation-play-state: paused;
+}
+.rebus .R p{
+  font-family: Pixel Times;
+  color: #fff;
+  font-size: 34px;
+  margin-top: 135px;
+  margin-left: 27px;
+}
+.rebus .L{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/L.png);
+  width: 156px;
+  height: 212px;
+  left:0px;
+  bottom: 210px;
+  animation: color1_L 0.1s alternate forwards;
+  animation-play-state: paused;
+}
+.rebus .L p{
+  font-family: Pixel Times;
+  color: #fff;
+  font-size: 34px;
+  margin-top: 135px;
+  margin-left: 40px;
+
+}
+.rebus .I{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/I.png);
+  width: 75px;
+  height: 212px;
+  right:0px;
+  bottom: 210px;
+  animation: color2_I 0.1s alternate forwards;
+  animation-play-state: paused;
+}
+.rebus .I p{
+  font-family: Pixel Times;
+  color: #fff;
+  font-size: 34px;
+  margin-top: 135px;
+  margin-left: 33px;
+}
+.rebus .F{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/F.png);
+  width: 156px;
+  height: 212px;
+  left:0px;
+  bottom: 0px;
+  animation: color3_F 0.1s alternate forwards;
+  animation-play-state: paused;
+}
+.rebus .F p{
+  font-family: Pixel Times;
+  color: #fff;
+  font-size: 34px;
+  margin-top: 135px;
+  margin-left: 33px;
+}
+.rebus .E{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/E.png);
+  width: 156px;
+  height: 212px;
+  right:0px;
+  bottom: 0px;
+  animation: color4_E 0.1s alternate forwards;
+  animation-play-state: paused;
+}
+.rebus .E p{
+  font-family: Pixel Times;
+  color: #fff;
+  font-size: 34px;
+  margin-top: 135px;
+  margin-left: 33px;
+}
+
+@keyframes color1_Y {
+  0%{background-position: 0px top;}
+  100%{background-position: 230px top;}
+}
+@keyframes color1_L {
+  0%{background-position: 0px top;}
+  100%{background-position: 156px top;}
+}
+@keyframes color2_O {
+  0%{background-position: 0px top;}
+  100%{background-position: 137px top;}
+}
+@keyframes color2_I {
+  0%{background-position: 0px top;}
+  100%{background-position: 75px top;}
+}
+@keyframes color3_U {
+  0%{background-position: 0px top;}
+  100%{background-position: 177px top;}
+}
+@keyframes color3_F {
+  0%{background-position: 0px top;}
+  100%{background-position: 156px top;}
+}
+@keyframes color4_R {
+  0%{background-position: 0px top;}
+  100%{background-position: 172px top;}
+}
+@keyframes color4_E {
+  0%{background-position: 0px top;}
+  100%{background-position: 156px top;}
+}
+@keyframes color5 {
+  0%{background-position: 0px top;}
+  100%{background-position: 446px top;}
+}

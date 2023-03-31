@@ -1,0 +1,200 @@
+.room-camin{
+  display: block;
+  background-color: #517259;
+  height: 1446px;
+  width: 100%;
+}
+.room-camin .oboi{
+  display: block;
+  background: url(../images/комната_с_камином/стена.png);
+  height: 1446px;
+  width: 1825px;
+}
+.camin_small .camin1{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/камин_без_огня.png);
+  width: 1052px;
+  height: 820px;
+  left:391px;
+  bottom:-517px;
+  animation: blick2 0.5s alternate infinite;
+  animation-play-state: paused;
+}
+.camin_small .stena1{
+  display: block;
+  position: absolute;
+  background-color: #FFB507;
+  width: 632px;
+  height: 481px;
+  left:613px;
+  bottom:-367px;
+}
+.camin_small .ogon1{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/огонь.png);
+  width: 418px;
+  height: 327px;
+  left:721px;
+  bottom:-373px;
+  animation: ogon 0.3s steps(1) alternate infinite;
+}
+.camin_small .zabor1{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/забор.png);
+  width: 558px;
+  height: 180px;
+  left:651px;
+  bottom:-380px;
+}
+.camin_small .niz1{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/низ.png);
+  width: 1143px;
+  height: 89px;
+  left:347px;
+  bottom:-517px;
+}
+.camin_small .verh1{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/верх.png);
+  width: 1052px;
+  height: 89px;
+  left:391px;
+  bottom:301px;
+}
+.doska{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/полка.png);
+  width: 1228px;
+  height: 109px;
+  left:305px;
+  top:237px;
+}
+.kniga1{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/книга1.png);
+  width: 86px;
+  height: 200px;
+  left:1222px;
+  top:37px;
+}
+.kniga2{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/книга2.png);
+  width: 241px;
+  height: 56px;
+  left:841px;
+  top:126px;
+}
+.kniga3{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/книга3.png);
+  width: 200px;
+  height: 56px;
+  left:830px;
+  top:181px;
+}
+.kniga4{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/книга4.png);
+  width: 56px;
+  height: 163px;
+  left:688px;
+  top:74px;
+}
+.kniga5{
+  display: block;
+  position: absolute;
+  background: url(../images/комната_с_камином/книга5!.png);
+  width: 86px;
+  height: 200px;
+  left:601px;
+  top:37px;
+  animation: blick 0.5s alternate infinite;
+  animation-play-state: paused;
+}
+.podckazka2 .tochki{
+  display: block;
+  position: absolute;
+  background: url(../images/основное/точки.png);
+  width: 69px;
+  height: 24px;
+  top: 141px;
+  left: 0px;
+  animation: podckazka1 6s linear alternate;
+}
+.podckazka2 .tablichka{
+  display: block;
+  position: absolute;
+  background: url(../images/основное/табличка3.png);
+  width: 440px;
+  height: 104px;
+  top: 70px;
+  left: 75px;
+  animation: podckazka1 6s linear alternate;
+}
+.podckazka2 .tablichka p{
+  font-family: Pixel Times;
+  color: #000;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 33px;
+  text-align: center;
+  margin-top: 35px;
+}
+ .podckazka3 .tochki{
+  display: block;
+  position: absolute;
+  background: url(../images/основное/точки.png);
+  width: 69px;
+  height: 24px;
+  top: 291px;
+  left: 0px;
+  animation: podckazka1 6s linear alternate;
+}
+.podckazka3 .tablichka{
+  display: block;
+  position: absolute;
+  background: url(../images/основное/табличка4.png);
+  width: 230px;
+  height: 104px;
+  top: 220px;
+  left: 75px;
+  animation: podckazka1 6s linear alternate;
+}
+.podckazka3 .tablichka p{
+  font-family: Pixel Times;
+  color: #000;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 33px;
+  text-align: center;
+  margin-top: 35px;
+}
+.vihod2{
+  display: block;
+  position: absolute;
+  background: url(../images/основное/стрелка.png);
+  width: 208px;
+  height: 92px;
+  right:27px;
+  bottom: -479px;
+}
+@keyframes ogon {
+  0%{background-position: 0px top;}
+  50%{background-position: 418px top;}
+}
+@keyframes blick2 {
+  0%{opacity: 100%;}
+  50%{opacity: 70%}
+}

@@ -1,0 +1,240 @@
+
+.snaruji{
+  display: block;
+  background-color: rgba(69, 221, 231, 1);
+  height: 1287px;
+  width: 100%;
+}
+.dom{
+  display: block;
+  position: absolute;
+  background: url(../images/снаружи/дом.png);
+  width: 849px;
+  height: 636px;
+  left:694px;
+  bottom:-360px;
+}
+.truba{
+  display: block;
+  position: absolute;
+  background: url(../images/снаружи/труба.png);
+  width: 120px;
+  height: 238px;
+  left:1064px;
+  bottom:272px;
+  animation: truba 0.5s steps(1) alternate infinite;
+}
+.okno1{
+  display: block;
+  position: absolute;
+  background: url(../images/снаружи/окно1.png);
+  width: 124px;
+  height: 132px;
+  left:808px;
+  bottom:-173px;
+  animation: okno1 3s steps(1) alternate infinite;
+}
+.okno2{
+  display: block;
+  position: absolute;
+  background: url(../images/снаружи/окно2.png);
+  width: 161px;
+  height: 132px;
+  left:1075px;
+  bottom:-278px;
+  animation: okno2 3s steps(1) alternate infinite;
+}
+.zagalovok{
+  display: block;
+  position: absolute;
+  font-family: Pixel Times;
+  color: #fff;
+  font-size: 206px;
+  text-transform: uppercase;
+  line-height: 216px;
+  left: 74px;
+  top: -200px;
+}
+.name{
+  display: block;
+  position: absolute;
+  font-family: Pixel Times;
+  color: #fff;
+  font-size: 33px;
+  text-transform: uppercase;
+  line-height: 33px;
+  right: 90px;
+  top: 447px;
+}
+.trava1{
+  display: block;
+  position: absolute;
+  background: url(../images/снаружи/трава1.png);
+  width: 867px;
+  height: 150px;
+  bottom: -360px;
+  left: 0px;
+}
+.trava2{
+  display: block;
+  position: absolute;
+  background: url(../images/снаружи/трава2.png);
+  width: 296px;
+  height: 99px;
+  bottom: -360px;
+  right: 0px;
+}
+.tree1{
+  display: block;
+  position: absolute;
+  background: url(../images/снаружи/дерево1.png);
+  width: 327px;
+  height: 514px;
+  bottom: -360px;
+  left: 5px;
+  animation: tree_1 1s steps(1) alternate infinite;
+}
+.tree2{
+  display: block;
+  position: absolute;
+  background: url(../images/снаружи/дерево2.png);
+  width: 282px;
+  height: 689px;
+  bottom: -360px;
+  left: 270px;
+  animation: tree_2 1s steps(1) alternate infinite;
+}
+.tree3{
+  display: block;
+  position: absolute;
+  background: url(../images/снаружи/дерево1.png);
+  width: 327px;
+  height: 514px;
+  bottom: -360px;
+  left: 390px;
+  animation: tree_3 1s steps(1) alternate infinite;
+}
+.tree4{
+  display: block;
+  position: absolute;
+  background: url(../images/снаружи/дерево1.png);
+  width: 327px;
+  height: 514px;
+  bottom: -360px;
+  right: 130px;
+  animation: tree_1 1s steps(1) alternate infinite;
+}
+.tree5{
+  display: block;
+  position: absolute;
+  background: url(../images/снаружи/дерево2.png);
+  width: 282px;
+  height: 689px;
+  bottom: -360px;
+  right: 0px;
+  animation: tree_5 1s steps(1) alternate infinite;
+}
+.dver{
+  display: block;
+  position: absolute;
+  background: url(../images/снаружи/дверь.png);
+  width: 124px;
+  height: 271px;
+  bottom: -360px;
+  right: 500px;
+  animation: blick 0.5s alternate infinite;
+  animation-play-state: paused;
+}
+.nachat{
+  display: block;
+  position: absolute;
+  background: url(../images/основное/табличка.png);
+  width: 384px;
+  height: 127px;
+  bottom: -300px;
+  left: 30px;
+}
+.nachat p{
+  font-family: Pixel Times;
+  color: #000;
+  font-size: 70px;
+  text-transform: uppercase;
+  line-height: 33px;
+  text-align: center;
+  margin-top: 50px;
+}
+.podckazka1{
+  display: none;
+}
+.podckazka1 .tochki{
+  display: block;
+  position: absolute;
+  background: url(../images/основное/точки.png);
+  width: 69px;
+  height: 24px;
+  top: 491px;
+  left: 0px;
+  animation: podckazka1 6s linear alternate;
+}
+.podckazka1 .tablichka{
+  display: block;
+  position: absolute;
+  background: url(../images/основное/табличка2.png);
+  width: 346px;
+  height: 95px;
+  top: 420px;
+  left: 75px;
+  animation: podckazka1 6s linear alternate;
+}
+.podckazka1 .tablichka p{
+  font-family: Pixel Times;
+  color: #000;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 33px;
+  text-align: center;
+  margin-top: 35px;
+}
+@keyframes tree_1 {
+  0%{background-position: 0px top;}
+  50%{background-position: 327px top;}
+}
+@keyframes tree_2 {
+  0%{background-position: 0px top;}
+  50%{background-position: 282px top;}
+}
+@keyframes tree_3 {
+  0%{background-position: 327px top;}
+  50%{background-position: 0px top;}
+}
+@keyframes tree_5 {
+  0%{background-position: 282px top;}
+  50%{background-position: 0px top;}
+}
+@keyframes truba {
+  0%{background-position: 0px top;}
+  25%{background-position: 120px top;}
+  50%{background-position: 240px top;}
+  75%{background-position: 360px top;}
+}
+@keyframes okno1 {
+  0%{background-position: 0px top;}
+  25%{background-position: 124px top;}
+  50%{background-position: 248px top;}
+  75%{background-position: 372px top;}
+}
+@keyframes okno2 {
+  0%{background-position: 0px top;}
+  25%{background-position: 161px top;}
+  50%{background-position: 322px top;}
+  75%{background-position: 483px top;}
+}
+@keyframes podckazka1 {
+  0%{opacity: 0;}
+  50%{left:-425px; opacity: 0;}
+  100%{left:0px;}
+}
+@keyframes blick {
+  0%{opacity: 100%;}
+  50%{opacity: 70%}
+}

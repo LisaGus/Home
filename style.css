@@ -1,0 +1,10 @@
+@import "stylesheet/1ecran.css";
+@import "stylesheet/2ecran.css";
+@import "stylesheet/2_2ecran.css";
+@import "stylesheet/2_3ecran.css";
+@import "stylesheet/reset/css";
+@font-face {
+font-family: Pixel Times;
+src: url(stylesheet\fonts\Pixel Times Bold.ttf);
+src: url(stylesheet\fonts\Pixel Times.ttf);
+}
